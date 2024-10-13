@@ -7,7 +7,7 @@ async function bootstrap() {
   app.use(bodyParser.json({ limit: '10mb' }));
   app.use(bodyParser.urlencoded({ limit: '10mb', extended: true }));
   app.enableCors({
-    origin: 'https://smurf-fr.vercel.app',
+    origin: 'https://books-shelves.vercel.app',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   });
