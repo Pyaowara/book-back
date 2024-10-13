@@ -1,12 +1,12 @@
 import { Controller, Get, Param, Query, Post, BadRequestException, NotFoundException, InternalServerErrorException, Body, Patch } from '@nestjs/common';
 import { BookService } from './book.service';
 import { Book } from '../entity/book.entity';
-import { Shop } from 'src/entity/book_shop.entity';
-import { Serie } from 'src/entity/serie.entity';
-import { Publisher } from 'src/entity/publisher.entity';
-import { Author } from 'src/entity/author.entity';
-import { History } from 'src/entity/history.entity';
-import { Favorite } from 'src/entity/favorite.entity';
+import { Shop } from '../entity/book_shop.entity';
+import { Serie } from '../entity/serie.entity';
+import { Publisher } from '../entity/publisher.entity';
+import { Author } from '../entity/author.entity';
+import { History } from '../entity/history.entity';
+import { Favorite } from '../entity/favorite.entity';
 
 
 

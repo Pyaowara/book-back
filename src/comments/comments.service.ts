@@ -4,7 +4,7 @@ import { Repository } from 'typeorm';
 import { Book } from '../entity/book.entity';
 import { Comment } from '../entity/comment.entity';
 import { User } from '../entity/user.entity';
-import { Voting } from 'src/entity/voting.entity';
+import { Voting } from '../entity/voting.entity';
 
 @Injectable()
 export class CommentsService {

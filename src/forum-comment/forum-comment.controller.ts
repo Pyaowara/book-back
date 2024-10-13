@@ -1,7 +1,7 @@
 import { Get, Body, Controller, Post, NotFoundException, BadRequestException, InternalServerErrorException, Param, Delete, Query } from '@nestjs/common';
 import { ForumCommentService } from './forum-comment.service';
 import { ForumComment } from '../entity/forum_comment.entity';
-import { Forum } from 'src/entity/forum.entity';
+import { Forum } from '../entity/forum.entity';
 
 @Controller('forum-comments')
 export class ForumCommentController {

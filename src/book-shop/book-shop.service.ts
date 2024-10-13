@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Shop } from 'src/entity/book_shop.entity';
+import { Shop } from '../entity/book_shop.entity';
 import { Repository, Between } from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
 
