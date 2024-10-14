@@ -19,9 +19,9 @@
             ]
         }
     ],
-    "headers": {
+    "headers": [{
                 "Access-Control-Allow-Origin": "https://books-shelves.vercel.app",
                 "Access-Control-Allow-Methods": "GET,POST,PUT,DELETE,OPTIONS",
                 "Access-Control-Allow-Credentials": "true"
-            }
+}]
 }
